@@ -1,0 +1,40 @@
+{
+  "name": "rollup-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "i18next": "^11.5.0",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-replace": "^1.0.0",
+    "gulp-rollup": "^2.16.2",
+    "lodash": "^4.17.10",
+    "rollup": "^0.63.5",
+    "rollup-plugin-babel": "^3.0.7",
+    "rollup-plugin-commonjs": "^9.1.4",
+    "rollup-plugin-json": "^3.0.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.2.1",
+    "rollup-plugin-node-resolve": "^3.3.0"
+  },
+  "browserslist": [
+    "ie 10",
+    "chrome 55",
+    "firefox 56",
+    "safari 7"
+  ]
+}
